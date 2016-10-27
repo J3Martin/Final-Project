@@ -37,7 +37,8 @@ $(document).ready(function(){
         $("#enter").on("click", function(event){
                 event.preventDefault();
                 var input = $("#lgFormGroupInput").val();
-                if(input>){
+                console.log(input);
+                if(input.length>0){
                         swal("Your email has been saved.")
                 }
                 else{
